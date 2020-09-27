@@ -1,0 +1,19 @@
+{
+  "name": "sobte-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "description": "Sobte's Blog",
+  "repository": "https://github.com/sobte/sobte-blog",
+  "scripts": {
+    "dev": "vuepress dev posts",
+    "build": "vuepress build posts"
+  },
+  "author": "Sobte",
+  "devDependencies": {
+    "@vuepress/plugin-blog": "^1.9.2",
+    "@vuepress/plugin-google-analytics": "^1.5.3",
+    "@vuepress/plugin-nprogress": "^1.5.4",
+    "vuepress": "^1.6.0"
+  }
+}
